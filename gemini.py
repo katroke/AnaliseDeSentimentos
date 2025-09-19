@@ -9,7 +9,7 @@ import google.generativeai as genai
 from google.generativeai.types import GenerationConfig# type: ignore
 
 # Passo 1: Insira sua chave de API aqui
-genai.configure(api_key="AIzaSyDmHirV1y83ZPcDsSapjHbYrY6GIjXxKKA") # type: ignore
+genai.configure(api_key="SUA_API") # type: ignore
 
 app = Flask(__name__)
 
