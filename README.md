@@ -109,5 +109,3 @@ flask run
 Abra seu navegador e acesse [http://127.0.0.1:5000](https://www.google.com/search?q=http://127.0.0.1:5000) para ver a aplicação funcionando\!
 
 -----
-
-Depois de salvar este arquivo, faça o `add`, `commit` e `push` para enviá-lo ao seu GitHub. A página do seu repositório ficará muito mais profissional e informativa\!
