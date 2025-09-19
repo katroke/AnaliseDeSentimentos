@@ -9,7 +9,7 @@ import google.generativeai as genai
 from google.generativeai.types import GenerationConfig# type: ignore
 
 # Passo 1: Insira sua chave de API aqui
-genai.configure(api_key="SUA_API") # type: ignore
+genai.configure(api_key="AIzaSyDmHirV1y83ZPcDsSapjHbYrY6GIjXxKKA") # type: ignore
 
 app = Flask(__name__)
 
@@ -77,4 +77,5 @@ def analyse():
         return jsonify({"error": f"Ocorreu um erro no servidor ao contatar a IA. Detalhe: {str(e)}"}), 500
 
 if __name__ == '__main__':
+
     app.run(debug=True, port=5050)
